@@ -33,4 +33,4 @@ while not queue.empty():
             level[v] = level[u] + 1
             queue.put(v)
 print(bfs_traversal_op)
-print(level)
+# print(level)
